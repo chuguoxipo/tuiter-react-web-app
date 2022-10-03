@@ -1,0 +1,99 @@
+body {
+  font-family: "Arial";
+  background-color: black;
+  color: white;
+}
+
+.wd-border-style {
+  border-color: rgb(47, 51, 54);
+  border-style: solid;
+}
+
+.wd-title-style {
+  padding-left: 16px;
+  padding-top: 12px;
+  color: white;
+  font-size: 20px;
+}
+
+.wd-handle-style {
+  color: lightgrey;
+  font-size: 13px;
+  padding-left: 16px;
+  padding-bottom: 12px;
+  border-bottom: lightgrey solid 1px;
+}
+
+.wd-avatar-style {
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  padding-left: 16px;
+  padding-top: 12px;
+  float: left;
+  padding-right: 16px;
+}
+
+.wd-author-style {
+  padding-top: 12px;
+  padding-right: 2px;
+  font-size: 15px;
+  color: white;
+  float: left;
+}
+
+.wd-author-handle-style {
+  padding-top: 12px;
+  font-size: 15px;
+  color: lightgray;
+}
+
+.wd-main-content-style {
+  color: white;
+  font-size: 15px;
+  max-width: 506px;
+  padding-bottom: 12px;
+  margin-left: 80px;
+}
+
+.wd-img-style {
+  width: 504px;
+  height: 264px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-left: 76px;
+  border-width: thin 1px;
+  border-color: lightgray;
+}
+
+.wd-subtitle-style {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  padding: 12px;
+  margin-left: 76px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-color: lightgray;
+  border-width: thin 1px;
+  margin-top: 0px;
+}
+
+.wd-subcontent-style {
+  font-size: 15px;
+  color: lightgray;
+}
+
+.wd-icon-style {
+  margin-top: 12px;
+  width: 22%;
+  float: left;
+}
+
+.wd-icon-style .wd-icon-pic {
+  margin-left: 12px;
+}
+
+.float-done {
+  clear: both;
+}
