@@ -1,115 +1,56 @@
-body {
-  font-family: "Arial";
-  background-color: black;
-  color: white;
+.wd-search-tuiter {
+  bottom: 10px;
+  left: 10px;
 }
 
-.wd-border-style {
-  border-color: rgb(47, 51, 54);
+.wd-COG {
+  padding-top: 20px;
+  float: right;
 }
 
-.wd-border-solid {
-  border-style: solid; }
 
-.wd-padded-left {
-  padding-left: 16px;
+.list-group-item.wd-customized-list-item-active {
+  z-index: 2;
+  color: #fff;
+  font-weight: bold;
+  background-color: rgba(0,0,0,0.5);
+  border-color: rgba(0,0,0,0.5);
 }
 
-.wd-search {
-  background-color: darkgrey;
-  color: white;
-  width: 80%;
-  height: 30px;
-}
-
-.wd-rounded-corners-all-around {
-  border-radius: 50px;
-}
-
-.pos-relative {
-  position: relative;
-}
-
-.wd-gear {
-  font-size: 2em;
-  position: absolute;
-  right: 12px;
-}
-
-.wd-nav-tabs {
-  width: 100%;
-  padding: 0px;
-}
-
-.wd-nav-tabs li {
-  list-style-type: none;
-  display: inline-block;
-  font-size: 15px;
-  color: rgb(110, 118, 125);
-  margin-right: 100px;
-}
-
-.wd-nav-tabs .wd-selected {
+.nav-tabs .nav-link.wd-customized-nav-link-active {
+  font-weight: bold;
   border-bottom: solid 4px rgb(29,161,242);
   padding-bottom: 10px;
-  color: rgb(29, 161, 242);
-  margin-right: 100px;
-}
-
-.wd-bg-color {
-  height: 7px;
-  background-color: darkgrey;
-}
-
-.wd-suggested-posts {
-  font-size: 13px;
-  color: rgb(110,118,125);
-  margin-top: 7px;
-  margin-bottom: 7px;
-}
-
-.wd-dots {
-  position: absolute;
-  right: 12px;
-}
-
-.wd-author-style {
-  font-size: 13px;
   color: white;
-  margin-bottom: 7px;
+  width: 140%;
 }
 
-.wd-suggested-posts-time {
-  font-size: 13px;
-  color: rgb(110,118,125);
-  margin-left: 10px;
+.wd-margin-to-right {
+  margin-right: 50px;
 }
 
 .wd-img-style {
-  width: 100px;
-  height: 100px;
-  /*position: absolute;*/
-  /*left:120px;*/
-  float: right;
-  padding-right: 16px;
-  border-radius: 10px;
+  width: 25px;
+  height: 25px;
 }
 
-.wd-img-padding {
-  padding-bottom: 50px;
-  padding-top: 30px
+.wd-white-background {
+  background-color:#ffffff;
+}
+.wd-black {
+  color:#000000;
 }
 
-.intro {
-  float: left;
-  width: 80%;
+.wd-border {
+  border-color: #ffffff;
 }
 
-.wd-post-topic-style {
-  font-size: 14px;
-  color: rgb(110,118,125);
-  margin-top: 7px;
-  margin-bottom: 7px;
+.wd-img-size {
+  width: 15px;
+  height: 10px;
 }
 
-
+wd-margin-to-left {
+  margin-left:10px;
+  padding-left:10px;
+}
