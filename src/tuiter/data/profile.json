@@ -1,0 +1,16 @@
+
+   {
+     "_id": 123,
+     "firstName": "Cozy",
+     "lastName": "Zhang",
+     "handle": "@cozyzhang",
+     "profilePicture": "jack.jpeg",
+     "bannerPicture": "polyglot.png",
+     "bio": "Student at Northeastern University",
+     "website": "youtube.com/webdevtv",
+     "location": "Seattle, WA",
+     "dateOfBirth": "5/28/2022",
+     "dateJoined": "4/2012",
+     "followingCount": 340,
+     "followersCount": 223
+   }

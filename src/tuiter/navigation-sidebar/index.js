@@ -11,7 +11,7 @@ const NavigationSidebar = () => {
         <div className="list-group">
           <a href="#" className="list-group-item">
             <i className="icon bi-twitter"></i></a>
-          <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
+          <Link to="/tuiter" className={`list-group-item ${paths.length === 2?'active':''}`}>
           <div className="row">
               <div className="col-2">
                 <i className="icon bi-house"></i>
@@ -63,15 +63,14 @@ const NavigationSidebar = () => {
               <div className="col-10 d-none d-xl-block">Lists</div>
             </div>
           </a>
-          <a href="#" className={`list-group-item
-                    ${active === 'profile'?'active':''}`}>
+          <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile'?'active':''}`}>
             <div className="row">
               <div className="col-2">
                 <i className="icon bi-people"></i>
               </div>
               <div className="col-10 d-none d-xl-block">Profile</div>
             </div>
-          </a>
+          </Link>
           <a href="#" className={`list-group-item
                     ${active === 'more'?'active':''}`}>
             <div className="row">
