@@ -2,7 +2,8 @@ import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import TuitStats from "./tuit-stats";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "../reducers/tuits-reducer";
+// import {deleteTuit} from "../reducers/tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = (
     {
@@ -24,7 +25,7 @@ const TuitItem = (
 ) => {
   const dispatch = useDispatch();
   const deleteTuitHandler = (id) => {
-    dispatch(deleteTuit(id));
+    dispatch(deleteTuitThunk(id));
   }
   return (
       <li className="list-group-item border-soft">
@@ -82,7 +83,7 @@ const TuitItem = (
             {/*    <i className="bi-share"></i>*/}
             {/*  </div>*/}
             {/*</div>*/}
-            <TuitStats/>
+            <TuitStats key={tuit._id} tuit={tuit}/>
           </div>
         </div>
       </li>
